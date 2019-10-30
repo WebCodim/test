@@ -1,0 +1,30 @@
+{
+  "name": "testapp/testapi",
+  "authors": [
+    {
+      "name": "Aleksey Denisov",
+      "email": "web.codim@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "symfony/routing": "^4.2",
+    "symfony/http-foundation": "^4.2",
+    "symfony/http-kernel": "^4.2",
+    "symfony/config": "^4.2",
+    "symfony/yaml": "^4.2",
+    "symfony/dotenv": "^4.2",
+    "symfony/serializer": "^4.2",
+    "symfony/http-client": "^4.2",
+    "doctrine/orm": "^2.6",
+    "doctrine/cache": "^1.8"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^4.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  }
+}

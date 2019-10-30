@@ -1,0 +1,20 @@
+api_index:
+    path:       /
+    controller: App\Controller\DefaultController::status
+    methods:    GET
+api_product_generate:
+    path:       /api/generator/products
+    controller: App\Controller\GeneratorController::generateProducts
+    methods:    GET
+api_product_list:
+    path:       /api/products
+    controller: App\Controller\ProductController::list
+    methods:    GET
+api_order_create:
+    path:       /api/orders/create
+    controller: App\Controller\OrderController::create
+    methods:    POST
+api_order_pay:
+    path:       /api/orders/pay
+    controller: App\Controller\OrderController::pay
+    methods:    POST
